@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "http://mail.google.com/*", "https://mail.google.com/*", "http://*.mail.google.com/*", "https://*.mail.google.com/*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://mail.google.com/*", "https://mail.google.com/*", "http://*.mail.google.com/*", "https://*.mail.google.com/*" ]
+   } ],
+   "converted_from_user_script": true,
+   "description": "Allow custom superstars in Gmail",
+   "key": "T6aMxRLzICaXwBDiGiNFqM3TlCr9cP39JSDsP/sOGN4=",
+   "name": "Gmail Superstar Turbo",
+   "version": "1.0"
+}
